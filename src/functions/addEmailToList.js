@@ -1,4 +1,4 @@
-const fetch = require('node-fetch');
+import fetch from 'node-fetch';
 
 exports.handler = async (event, context) => {
   const { email, listId } = JSON.parse(event.body);
