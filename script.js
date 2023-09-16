@@ -22,8 +22,8 @@ document.addEventListener('submit', function (e) {
 
     const email = document.querySelector('[name=email]').value;
     const listId = '2548262';
-
-    fetch('/.netlify/functions/function', {
+    console.log(email);
+    fetch('/.netlify/functions/addEmailToList', {
       method: 'POST',
       body: JSON.stringify({ email, listId }),
     })
