@@ -23,7 +23,7 @@ document.addEventListener('submit', function (e) {
     const email = document.querySelector('[name=email]').value;
     const listId = '2548262';
 
-    fetch('/functions/function.js', {
+    fetch('/.netlify/functions/function', {
       method: 'POST',
       body: JSON.stringify({ email, listId }),
     })
