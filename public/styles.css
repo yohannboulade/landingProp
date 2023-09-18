@@ -36,7 +36,6 @@ nav a {
     text-decoration: none;
     color: #fff;
 }
-
 .hero {
     position: relative;
     overflow: hidden;
@@ -101,7 +100,7 @@ video {
     background-size: 300px;
     background-repeat: no-repeat;
     background-position: right bottom;
-    padding: 50px 0;
+    padding: 100px 0 20px 0;
     text-align: center;
 }
 
@@ -122,7 +121,7 @@ video {
 
 .story {
     color: #333;
-    padding: 20px 75px;
+    padding: 80px 75px 20px 75px;
 }
 
 .story h2 {
@@ -165,7 +164,7 @@ video {
     background-color: #FFD700;
     color: #fff;
     text-align: center;
-    padding: 100px 0 20px 0;
+    padding: 80px 0 20px 0;
     overflow: hidden;
     margin-bottom: -80px;
     position: relative;
