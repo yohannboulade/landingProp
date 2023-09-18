@@ -1,8 +1,0 @@
-{
-  "scripts": {
-    "build": "your_build_command_here"
-  },
-  "dependencies": {
-    "node-fetch": "^3.3.2"
-  }
-}

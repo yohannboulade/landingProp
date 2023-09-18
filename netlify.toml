@@ -1,4 +1,0 @@
-[[redirects]]
-  from = "/.netlify/functions/*"
-  to = "src/functions/:splat"
-  status = 200
